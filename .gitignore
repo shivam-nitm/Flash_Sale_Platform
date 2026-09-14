@@ -3,3 +3,12 @@ target/
 .idea/
 *.class
 .DS_Store
+# Sub-repositories
+/catalog-service/
+/inventory-service/
+/order-service/
+/payment-fulfillment-service/
+/event-bus/
+/infra-observability/
+/testing-chaos-lab/
+/ai-ops-assistant/
