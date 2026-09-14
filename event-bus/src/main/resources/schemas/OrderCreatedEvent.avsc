@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "OrderCreatedEvent",
+  "namespace": "com.flashsale.events",
+  "fields": [
+    {"name": "eventId", "type": "string"},
+    {"name": "orderId", "type": "long"},
+    {"name": "productId", "type": "long"},
+    {"name": "quantity", "type": "int"},
+    {"name": "timestamp", "type": "long"}
+  ]
+}
